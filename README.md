@@ -6,4 +6,4 @@
 - Render some content on the screen
 - Handle user data
 
-## Coming Soon! 🚀
+## Coming Soon! 
