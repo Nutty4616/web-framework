@@ -27,6 +27,6 @@ export class Eventing {
 
     handlers.forEach(callback => {
       callback();
-    })
+    });
   }
 }
