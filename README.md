@@ -8,4 +8,4 @@
 - Render some content on the screen
 - Handle user data
 
-## Coming Soon! 
+## NOT READY FOR PRODUCTION! 
