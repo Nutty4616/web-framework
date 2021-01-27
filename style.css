@@ -1,0 +1,22 @@
+#para-4 {
+  width: 40em;
+}
+
+.body {
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#attrs {
+  padding: 0.5em 1em;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgb(231, 231, 231);
+  border: 1px solid  rgb(197, 197, 197);
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s linear;
+}

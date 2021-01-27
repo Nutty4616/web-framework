@@ -32,14 +32,18 @@ export class UserForm extends View<User, UserProps> {
 
   template(): string{
     return `
+    <div>
+        <h3>User Detail</h3>
+        <div>User Name: ${this.model.get('name')}</div>
+        <div>User Age: ${this.model.get('age')}</div>
+      </div>
+
       <div>
-        <input placeholder="${this.model.get('name')}" />  
-        <button class="set-name">Change Name</button>
-        <button class="set-age">Set Random Age</button>
-        <button class="save-model">Save User</button>
+        <input id="attrs" placeholder="${this.model.get('name')}" />  
+        <button class="set-name btn btn-purple mr-3">Change Name</button>
+        <button class="set-age btn btn-purple mr-3">Set Random Age</button>
+        <button class="save-model btn btn-purple mr-3">Save User</button>
       </div>
     `;
-  }
-
-  
+  } 
 }
