@@ -647,7 +647,7 @@ button, input, textarea, select {
 .welcome {
   width: 100%;
   min-height: 100vh;
-  background-color: #2ecc71;
+  background-color: #2ecc6b;
   overflow: hidden;
 }
 .welcome header {
